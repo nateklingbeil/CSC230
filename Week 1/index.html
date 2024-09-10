@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nate's Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Nate's Week 1 Assignment</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about-menum">About Me</a></li>
+            <li><a href="#cs-experience">CS Experience</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+            <li><a href="#f1-standings">F1 Standings</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Hello, My name is Nate Klingbeil. I've served over a decade in the USAF and am excited to see where the Washington Vet 2 Tech program takes me.</p>
+        </section>
+
+        <section id="cs-experience">
+            <h2>My CS Experience</h2>
+            <p>I've been working towards my Computer Science Degree for nearly three years. Here are some languages I have a little experience with:</p>
+            <ol class="lists">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+            </ol>
+        </section>
+
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            <p>When I'm not doing school work, I enjoy:</p>
+            <ul class="lists">
+                <li>Mountain Biking</li>
+                <li>Golfing</li>
+                <li>Formula 1 Racing</li>
+            </ul>
+        </section>
+
+        <section id="contact-me">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="first-name">First name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="William">
+                
+                <label for="last-name">Last name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Wonka">
+                
+                <fieldset>
+                    <legend>Choose your favorite class:</legend>
+                    <label><input type="radio" name="fav-class" value="CSC160"> CSC160</label>
+                    <label><input type="radio" name="fav-class" value="CSC230"> CSC230</label>
+                    <label><input type="radio" name="fav-class" value="CSC210"> CSC210</label>
+                </fieldset>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section id="f1-standings">
+            <h2>
+                <a href="https://www.formula1.com/en/results/2024/team/McLaren-Mercedes" target="_blank" rel="noopener noreferrer">
+                    McLaren F1 Team Standings
+                </a>
+            </h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Grand Prix</th>
+                        <th>Date</th>
+                        <th>Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Bahrain</th>
+                        <th>02 Mar 24</th>
+                        <th>12</th>
+                    </tr>
+                    <tr>
+                        <th>Saudi Arabia</th>
+                        <th>09 Mar 24</th>
+                        <th>16</th>
+                    </tr>
+                    <tr>
+                        <th>Australia</th>
+                        <th>24 Mar 24</th>
+                        <th>27</th>
+                    </tr>
+                    <tr>
+                        <th>Japan</th>
+                        <th>07 Apr 24</th>
+                        <th>14</th>
+                    </tr>
+                    <tr>
+                        <th>China</th>
+                        <th>21 Apr 24</th>
+                        <th>27</th>
+                    </tr>
+                    <tr>
+                        <th>Miami</th>
+                        <th>05 May 24</th>
+                        <th>28</th>
+                    </tr>
+                    <tr>
+                        <th>Emilia-Romagna</th>
+                        <th>19 May 24</th>
+                        <th>30</th>
+                    </tr>
+                    <tr>
+                        <th>Monaco</th>
+                        <th>26 May 24</th>
+                        <th>30</th>
+                    </tr>
+                    <tr>
+                        <th>Canada</th>
+                        <th>09 Jun 24</th>
+                        <th>28</th>
+                    </tr>
+                    <tr>
+                        <th>Spain</th>
+                        <th>23 Jun 24</th>
+                        <th>25</th>
+                    </tr>
+                    <tr>
+                        <th>Austria</th>
+                        <th>30 Jun 24</th>
+                        <th>31</th>
+                    </tr>
+                    <tr>
+                        <th>Great Britain</th>
+                        <th>07 Jul 24</th>
+                        <th>27</th>
+                    </tr>
+                    <tr>
+                        <th>Hungary</th>
+                        <th>21 Jul 24</th>
+                        <th>43</th>
+                    </tr>
+                    <tr>
+                        <th>Belgium</th>
+                        <th>28 Jul 24</th>
+                        <th>28</th>
+                    </tr>
+                    <tr>
+                        <th>Netherlands</th>
+                        <th>25 Aug 24</th>
+                        <th>38</th>
+                    </tr>
+                    <tr>
+                        <th>Italy</th>
+                        <th>01 Sep 24</th>
+                        <th>34</th>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <img src="media/mclaren.jpg" alt="McLaren F1 Car">
+        </section>
+    </main>
+</body>
+</html>
