@@ -44,78 +44,45 @@
 </head>
 
 <body>
-    <h4 style="font-size: 24px; margin-bottom: 5px;">Week 3 Number 3</h4>
+    <h4 style="font-size: 24px; margin-bottom: 5px;">Week 3 Number 2</h4>
     <p style="font-style: italic; color: #7f8c8d; margin-top: 0;">Nate Klingbeil</p>
     <div class="code-block">
-        <pre><code><!DOCTYPE html>
-<html>
-<head>
-    <title>CSS Selectors</title>
-    <style>
-        /* 1) Universal Selector */
-        * {
-            font-size: large;
-            padding: 3px;
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        body :not(.special) {
+            color: blue;
+            font-weight: normal;
         }
-
-        /* 2) Element Selector */
-        div {
-            border: 2px solid rgb(0, 102, 0);
-        }
-
-        /* 3) Descendant Selector */
-        .divK p {
-            color: red;
-            font-weight: bold;
-        }
-
-        /* 4) Child Selector */
-        .divK > p {
-            background-color: lightgray;
-        }
-
-        /* 5) Adjacent Sibling Selector */
-        .divK + p {
-            font-family: 'Times New Roman';
-            font-size: larger;
-            font-weight: bold;
-        }
-
-        /* 6) General Selector */
-        .divK ~ p {
-            border: 1px solid red;
-        }
-
-        /* 7) Class Selector */
-        .divK {
-            margin-left: 50px;
-        }
-
-        .divGC {
-            margin-left: 100px;
-        }
-    </style>
-</head>
-<body>
-    <div>
-        <p>P1</p>
-        <p>P2</p>
-        <div class="divK">
-            <p>C1</p>
-            <p>C2</p>
-            <p>C3</p>
-            <div class="divGC">
-                <p>G1</p>
-                <p>G2</p>
-            </div>
-            <p>C4</p>
-        </div>
-        <p>P3</p>
-        <p>P4</p>
-        <p>P5</p>
-    </div>
-</body>
-</html></code></pre>
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;&lt;/h1&gt;
+    &lt;div id="main"&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p class="special"&gt;
+            &lt;img&gt;
+            &lt;strong&gt;&lt;/strong&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div id="intro"&gt;
+        &lt;h2&gt;&lt;/h2&gt;
+        &lt;p&gt;&lt;/p&gt;
+        &lt;h2&gt;&lt;/h2&gt;
+        &lt;p class="special"&gt;
+            &lt;strong&gt;&lt;/strong&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
     </div>
 </body>
 
